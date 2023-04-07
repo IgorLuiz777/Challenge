@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+body {
+    background-color: rgb(37, 37, 39);
+}
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#porto2{
+    margin-right: 370px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+#menu-h{
+    background-color: rgb(63, 63, 65);
+}
+
+#menu-h ul {
+    
+    list-style: none;
+    padding: 0;
+}
+
+#menu-h ul li {
+    display: inline;
+}
+
+#menu-h ul li a {
+    color: #FFF;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+
+#menu-h ul li a:hover {
+    background-color: rgb(24, 139, 233);
+}
+
+
+
+.div1 {
+    width: 500px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20%;
+}
+
+
+.titulo1,.texto1,.texto2,.botao,h2 {
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 0px;
+    margin-left: 10%;
+    
+}
+.titulo1 {
+    margin-top: 20px;
+    color: rgb(24, 139, 233);
+    font-size: 40px;
+    text-align:left;
+    letter-spacing: -.07em;
+    font-family: "Open Sans",sans-serif;
+}
+
+.texto1 {
+    margin-top: 20px;
+    font-size: 30px;
+    text-align:left;
+    color: #FFF;
+    font-family: "Open Sans",sans-serif;
+    
+}
+
+.botao {
+    font-size: 40px;
+    margin-left: 22%;
+    margin-top: 50px;
+    background-color: rgb(24, 139, 233);
+    color: #FFF;
+    padding: 30px;
+    border-radius: 50px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+
+
+#img1 {
+    width: 30%;
+    margin-left: 5%;
+}
+
+.div2 {
+    width: 800px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 18.5%;
+    margin-bottom: 100px;
+}
+
+.subt {
+    color: rgb(24, 139, 233);
+    margin-top: 20px;
+
+    font-size: 40px;
+    letter-spacing: -.07em;
+    font-family: "Open Sans",sans-serif;
+}
+
+.texto2 {
+    margin-top: 20px;
+    font-size: 30px;
+    text-align:justify;
+    color: #FFF;
+    font-family: "Open Sans",sans-serif;
+}
+
+.botao2 {
+    font-size: 20px;
+    margin-left: 21.5%;
+    margin-right: 21.5%;
+    margin-top: 20px;
+    background-color: rgb(24, 139, 233);
+    color: #FFF;
+    padding: 20px;
+    border-radius: 50px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+    display: inline-block;
+    vertical-align: top;
+    display: block;
+}
+
+
+
+.grupo {
+    color: #FFF;
+    margin: 50px;
+    margin-top: 20px;
+    font-size: 30px;
+    text-align:left;
+    color: #FFF;
+    font-family: "Open Sans",sans-serif;
+}
