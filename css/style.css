@@ -15,13 +15,14 @@ body {
 }
 
 #porto2{
-    margin-right: 370px;
+    
     margin-left: 30px;
     margin-top: 30px;
 }
 
 #menu{
     background-color: rgb(63, 63, 65);
+     
 }
 
 #menu ul {
@@ -35,11 +36,18 @@ body {
 }
 
 #menu ul li a {
+    margin-left: 40px;
+    font-size: 23px;
     color: #FFF;
     padding: 20px;
     display: inline-block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
     text-decoration: none;
     transition: background .4s;
+    /* Colocar pra começar na direita */
 }
 
 #menu ul li a:hover {
@@ -152,7 +160,7 @@ body {
     display: inline-block;
 }
 
-.botao2 ul li a:hover {
+.botao2:hover {
     background-color: rgb(8, 20, 31);
 }
 
