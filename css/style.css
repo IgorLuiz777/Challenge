@@ -15,9 +15,10 @@ body {
 }
 
 #porto2{
-    margin-right: 13%;
+    margin-right: 16%;
     margin-left: 30px;
-    margin-top: 40px;
+    margin-top: 16px;
+    width: 150px;
 }
 
 #menu{
@@ -36,7 +37,7 @@ body {
 
 #menu ul li a {
     margin-left: 40px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     font-size: 23px;
     color: #FFF;
     padding: 20px;
@@ -124,7 +125,6 @@ body {
     justify-content: center;
     align-items: center;
     align-content: center;
-    margin-bottom: 200px;
 }
 
 
@@ -149,6 +149,10 @@ body {
     text-align:justify;
     color: #FFF;
     font-family: "Open Sans",sans-serif;
+}
+
+.botoes{
+    margin-bottom: 200px;
 }
 
 .botao2 {
@@ -189,6 +193,7 @@ footer {
 
  /* Extra small devices (phones, 600px and down) */@media (max-width: 600px) {
 
+
  }
 
  /* Small devices (portrait tablets and large phones, 600px and up) */@media (min-width: 600px) {
@@ -199,10 +204,34 @@ footer {
  }
  /* Large devices (laptops/desktops, 992px and up) */@media (min-width: 992px) {
 
+    /* #porto2{
+        margin-right: 1%;
+        margin-left: 10px;
+        margin-top: 20px;
+
+    }
+    
+    #menu ul li a {
+        margin-left: 15px;
+        margin-bottom: 17px;
+        font-size: 23px;
+        color: #FFF;
+        padding: 20px;
+    }
+    .div1 {
+        margin-top: 50px;
+    }
+    #img1 {
+        width: 110%;
+    } */
+
  }
 
   /* Extra large devices (large laptops and desktops, 1200px and up) */@media (min-width: 1200px) {
-
+    /* #porto2{
+        margin-right: 4%;
+        
+    } */
   }
   
 
