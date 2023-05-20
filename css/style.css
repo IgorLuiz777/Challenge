@@ -3,30 +3,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 * {
-    max-width: 1920px;
-    margin: 0px;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
 
 body {
-    background-color: rgb(37, 37, 39);
-}
-
-#porto2{
-    margin-right: 16%;
-    margin-left: 30px;
-    margin-top: 16px;
-    width: 150px;
+    background-color: #252527;
 }
 
 #menu{
-    background-color: rgb(63, 63, 65);
+    background-color: #3f3f41;
 }
 
 #menu ul {
-    
+    margin-left: 20%;
     list-style: none;
     padding: 0;
 }
@@ -36,10 +28,12 @@ body {
 }
 
 #menu ul li a {
-    margin-left: 40px;
-    margin-bottom: 15px;
-    font-size: 23px;
-    color: #FFF;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #fff;
     padding: 20px;
     display: inline-block;
     justify-content: flex-end;
@@ -47,11 +41,17 @@ body {
     text-decoration: none;
     transition: background .4s;
     display: inline-block;
-    /* Colocar pra começar na direita */
 }
 
 #menu ul li a:hover {
-    background-color: rgb(24, 139, 233);
+    background-color: #188be9;
+}
+
+
+.logo{
+    position: absolute;
+    margin-top: 3px;
+    margin-left: 10px;
 }
 
 
@@ -204,17 +204,17 @@ footer {
  }
  /* Large devices (laptops/desktops, 992px and up) */@media (min-width: 992px) {
 
-    /* #porto2{
+    #porto2{
         margin-right: 1%;
         margin-left: 10px;
         margin-top: 20px;
-
+        width: 140px;
     }
     
     #menu ul li a {
         margin-left: 15px;
         margin-bottom: 17px;
-        font-size: 23px;
+        font-size: 20px;
         color: #FFF;
         padding: 20px;
     }
@@ -223,15 +223,15 @@ footer {
     }
     #img1 {
         width: 110%;
-    } */
+    }
 
  }
 
   /* Extra large devices (large laptops and desktops, 1200px and up) */@media (min-width: 1200px) {
-    /* #porto2{
+    #porto2{
         margin-right: 4%;
         
-    } */
+    }
   }
   
 
