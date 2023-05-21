@@ -44,6 +44,7 @@ body {
 }
 
 #menu ul li a:hover {
+    transition: background .4s;
     background-color: #188be9;
 }
 
@@ -107,6 +108,7 @@ body {
 }
 
 .botao1:hover {
+    transition: background .4s;
     background-color: rgb(114, 176, 228);
     color: #000000;
     
@@ -174,12 +176,88 @@ body {
 .botao2:hover {
     background-color: rgb(114, 176, 228);
     color: #000000;
+    transition: background .4s;
+}
+
+.grupo-part1 {
+    margin-bottom:560px;
 }
 
 footer {
     background-color: rgb(24, 139, 233);
 }
 
+.footer {
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+}
+
+.logo-footer img{
+    margin-left: 10%;
+    margin-top: 4%;
+}
+
+.logo-footer p {
+    margin: 1% 0 1% 10%;
+    font-size: 22px;
+    font-weight: 600;
+    
+}
+
+
+.redes {
+    margin-left: 10%;
+    display: flex;
+}
+.redes a {
+    margin: 0.5%;
+    margin-bottom: 30px;
+}
+
+.redes a:hover {
+    transition: background .4s;
+    background-color: #fff;
+}
+
+.contato {
+    margin-left: 8%;
+    margin: 2%;
+}
+
+.contato ul {
+    margin-left: 8%;
+    list-style: none;
+}
+.contato li {
+    margin: 1.5%;
+}
+
+.contato a {
+    font-size: 20px;
+}
+
+.sobre {
+    margin-left: 8%;
+    margin: 2%;
+}
+
+.sobre ul {
+    margin-left: 8%;
+    list-style: none;
+}
+.sobre li {
+    margin: 1.5%;
+}
+
+.sobre a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 26px;
+}
+.sobre a:hover {
+    transition: background .4s;
+    color: #FFF;
+}
 
 .grupo {
     color: #FFF;
